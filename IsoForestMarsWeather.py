@@ -70,9 +70,11 @@ for ax in axes:
 
 plt.show() """
 
+# Normal vs Anomaly Pairplot
 """ sns.pairplot(df, vars=['ls', 'min_temp', 'max_temp', 'pressure'], hue='anomaly', palette="Set1")
 plt.show() """
 
-sns.pairplot(anomalies, vars=['ls', 'min_temp', 'max_temp', 'pressure'])
+# Anomaly Pairplot
+""" sns.pairplot(anomalies, vars=['ls', 'min_temp', 'max_temp', 'pressure'])
 plt.suptitle("Clusters of Anomalies")
-plt.show()
+plt.show() """
